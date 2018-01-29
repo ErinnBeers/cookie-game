@@ -1,0 +1,87 @@
+body {
+  background: radial-gradient(mediumturquoise, cadetblue);
+}
+
+h2 {
+  font-family: 'Rancho', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 100px 40px 100px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.left-column {
+  box-sizing: border-box;
+  float: left;
+  width: 33.3333%;
+  height: 100%;
+  display: inline-block;
+}
+
+.middle-column {
+  box-sizing: border-box;
+  float: left;
+  width: 33.3333%;
+  height: 100%;
+  display: inline-block;
+}
+
+.right-column {
+  box-sizing: border-box;
+  float: left;
+  width: 33.3333%;
+  height: 100%;
+  display: inline-block;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+button  {
+  background-color: tomato;
+  border: none;
+  height: 100px;
+  width: 50%;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  margin: 20px 25%;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  box-shadow: 0 7px grey;
+  vertical-align: middle;
+}
+
+button:active {
+  background-color: indianred;
+  box-shadow: 0 4px dimgrey;
+  transform: translateY(3px);
+}
+
+button.putback {
+  background-color: dimgrey;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+button.putback:active {
+  background-color: slategrey;
+  box-shadow: 0 4px tomato;
+  transform: translateY(3px);
+}
